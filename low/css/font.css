@@ -1,0 +1,46 @@
+@font-face {
+    font-family: "ferrari";
+    src: url('../fontes/FerroRosso.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "lambo";
+    src: url('../fontes/LaMacchina.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "bmw";
+    src: url('../fontes/BMWHelvetica-Bold.otf') format('truetype');
+}
+
+@font-face {
+    font-family: "mc";
+    src: url('../fontes/mclauren.otf') format('truetype');
+}
+
+@font-face {
+    font-family: "porche";
+    src: url('../fontes/PorscheRegular.ttf') format('truetype');
+}
+
+
+.ferrari_font {
+    font-family: 'ferrari';
+}
+
+.lambo_font {
+    font-family: 'lambo';
+}
+
+.bmw_font {
+    font-family: 'bmw';
+}
+
+.mc_font {
+    font-family: 'mc';
+}
+
+.porche_font {
+    font-family: 'porche';
+}
+

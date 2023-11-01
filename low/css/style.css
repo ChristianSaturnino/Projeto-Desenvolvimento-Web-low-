@@ -1,0 +1,260 @@
+
+
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #00000062; 
+    overflow: hidden;
+    z-index: 1;
+    justify-content: left;
+
+}
+
+.login {
+    float: left;
+    color: white;
+    font-size: 32px;
+    font-family: 'Chakra Petch', sans-serif;
+    transition: color .3s;
+    text-decoration: none;
+}
+
+.login:hover {
+    float: left;
+    color: rgb(131, 131, 131);
+    font-size: 32px;
+    font-family: 'Chakra Petch', sans-serif;
+    transition: color .3s;
+    text-decoration: none;
+}
+
+.navbar-text {
+    float: left;
+    padding: 10px 10px;
+    color: white;
+    font-size: 32px;
+    font-family: 'Chakra Petch', sans-serif;
+    transition: color .3s;
+}
+
+.navbar-text:hover {
+    float: left;
+    padding: 10px 10px;
+    color: rgb(131, 131, 131);
+    font-size: 32px;
+    font-family: 'Chakra Petch', sans-serif;
+    transition: color .3s;
+}
+
+.txtslogan {
+    color:white;
+}
+
+body{
+    background-color: rgb(22, 22, 22);
+}
+
+.table1 {
+    left: 50%;
+    margin: 0 auto;
+    
+}
+
+td {
+    margin: 0 auto;
+    
+}
+
+.divfundo {
+    width: 100%;
+    height: 500px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.divfundo h3 {
+    z-index: 2;
+    color:rgba(255, 255, 255, 0.658);
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 50px;
+    position: absolute;
+    padding-top: 310px;
+    padding-left: 20px;
+}
+
+.divfundo video {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.divtable{
+    justify-content: center;
+    width: 170px;
+    height: 300px;
+    border-radius: 10px;
+    background-position-x: center;
+    background-size: cover;
+    transition: width .5s, color .3s, linear-gradient .2s, background-position-x .2s, margin .2s;
+    color:rgba(0, 0, 0, 0);
+    margin: 20px;
+}
+
+.divtable:hover{
+    justify-content: center;
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+    transition: width .5s, color .7s, linear-gradient .2s, background-position-x .2s, margin .2s;
+    color:rgb(255, 255, 255);
+    margin: 10px;
+}
+
+.txttable {
+    text-align: center;
+    position: relative;
+    font-size: 45px;
+    top: 30%;
+}
+
+.txttable:hover{
+    text-align: center;
+    position: relative;
+    font-size: 45px;
+    top: 30%;
+}
+
+.ferrariimg{
+    background:
+    linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+    url(../src/ferrari_sf90-stradale_2019_1_30052019_13709_1280_960.jpg);
+    justify-content: center;
+    border-radius: 10px;
+    background-position-x: center;
+    background-size: cover;
+}
+
+.ferrariimg:hover{
+    background: 
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../src/ferrari_sf90-stradale_2019_1_30052019_13709_1280_960.jpg);
+    justify-content: center;
+    border-radius: 10px;
+    background-position-x: center;
+    background-size: cover;
+}
+
+.lamboimg{
+    background:
+    linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+    url(../src/thumb-1920-1314488\ \(1\).jpg); 
+    background-size: 650px; 
+    background-position-y: 320px;
+    justify-content: center;
+    background-position-x: center;
+}
+
+.lamboimg:hover{
+    background:
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../src/thumb-1920-1314488\ \(1\).jpg); 
+    background-size: 650px; 
+    background-position-y: 320px;
+    justify-content: center;
+    background-position-x: center;
+}
+
+.bmwimg{
+    background:
+    linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+    url(../src/bmw-i8-3.webp); 
+    background-size: 650px; 
+    background-position-y: 300px;
+    justify-content: center;
+    background-position-x: 47%;
+}
+
+.bmwimg:hover{
+    background:
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../src/bmw-i8-3.webp); 
+    background-size: 650px; 
+    background-position-y: 300px;
+    justify-content: center;
+    background-position-x: 43%;
+}
+
+.mcimg{
+    background:
+    linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+    url(../src/2018-mclaren-senna.jpg); 
+    background-size: 600px; 
+    background-position-y: 300px;
+    justify-content: center;
+    background-position-x: 50%;
+    font-size: 30px;
+}
+
+.mcimg:hover{
+    background:
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../src/2018-mclaren-senna.jpg); 
+    background-size: 600px; 
+    background-position-y: 300px;
+    justify-content: center;
+    background-position-x: 50%;
+    
+}
+
+.porcimg{
+    background:
+    linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+    url(../src/frente-porsche-panamera-turbo-s-2021-laranja.webp); 
+    background-size: 600px; 
+    background-position-y: 300px;
+    justify-content: center;
+    background-position-x: 50%;
+    font-size: 10px;
+}
+
+.porcimg:hover{
+    background:
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../src/frente-porsche-panamera-turbo-s-2021-laranja.webp); 
+    background-size: 600px; 
+    background-position-y: 300px;
+    justify-content: center;
+    background-position-x: 50%;
+    
+}
+
+h1 {
+    margin: 20px;
+    color:rgba(243, 243, 243, 0.658);
+    font-family: 'Chakra Petch', sans-serif;
+    
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.658);
+    color: white; 
+    bottom: 0;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+

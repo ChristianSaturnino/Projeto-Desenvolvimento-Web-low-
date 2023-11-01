@@ -1,0 +1,62 @@
+body {
+    font-family: 'Chakra Petch', sans-serif;
+    color: rgba(255, 255, 255, 0.644);
+}
+
+/* .container {
+    width: 40%;
+    padding: 20px;
+    position: absolute;
+    right: 0;
+    top: 53%;
+    transform: translateY(-50%);
+} */
+
+/* .form-group {
+    margin-bottom: 15px;
+} */
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.btn-submit {
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.btn-submit:hover {
+    background-color: #0e0e0e;
+}
+
+
+.img-compra {
+    border-radius: 10px;
+    height: 60%;
+    margin: 40px;
+}
+
+.footer-compra {
+    background-color: rgba(0, 0, 0, 0.658);
+    bottom: 0%;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: absolute;
+    width: 100%;
+}
